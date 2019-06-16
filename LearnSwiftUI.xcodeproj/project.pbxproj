@@ -70,6 +70,12 @@
 		22A58EEA22B5F00D0068F7C8 /* stmarylake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22A58EDD22B5F00D0068F7C8 /* stmarylake.jpg */; };
 		22A58EEB22B5F00D0068F7C8 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22A58EDE22B5F00D0068F7C8 /* chilkoottrail.jpg */; };
 		22A58EEC22B5F00D0068F7C8 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22A58EDF22B5F00D0068F7C8 /* rainbowlake.jpg */; };
+		22A58EEE22B5F9E00068F7C8 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A58EED22B5F9E00068F7C8 /* DatePickerView.swift */; };
+		22A58EF022B5F9F90068F7C8 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A58EEF22B5F9F90068F7C8 /* PickerView.swift */; };
+		22A58EF222B5FA0F0068F7C8 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A58EF122B5FA0F0068F7C8 /* SliderView.swift */; };
+		22A58EF422B5FA230068F7C8 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A58EF322B5FA230068F7C8 /* TextFieldView.swift */; };
+		22A58EF622B5FA430068F7C8 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A58EF522B5FA430068F7C8 /* Button.swift */; };
+		22A58EF822B5FA700068F7C8 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A58EF722B5FA700068F7C8 /* SwitchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -144,6 +150,12 @@
 		22A58EDD22B5F00D0068F7C8 /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
 		22A58EDE22B5F00D0068F7C8 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		22A58EDF22B5F00D0068F7C8 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
+		22A58EED22B5F9E00068F7C8 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		22A58EEF22B5F9F90068F7C8 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		22A58EF122B5FA0F0068F7C8 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		22A58EF322B5FA230068F7C8 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		22A58EF522B5FA430068F7C8 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		22A58EF722B5FA700068F7C8 /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +314,12 @@
 				22A58EA522B5EE870068F7C8 /* AppDelegate.swift */,
 				22A58EA722B5EE870068F7C8 /* SceneDelegate.swift */,
 				22A58EA922B5EE870068F7C8 /* ContentView.swift */,
+				22A58EED22B5F9E00068F7C8 /* DatePickerView.swift */,
+				22A58EEF22B5F9F90068F7C8 /* PickerView.swift */,
+				22A58EF122B5FA0F0068F7C8 /* SliderView.swift */,
+				22A58EF322B5FA230068F7C8 /* TextFieldView.swift */,
+				22A58EF522B5FA430068F7C8 /* Button.swift */,
+				22A58EF722B5FA700068F7C8 /* SwitchView.swift */,
 				22A58ED222B5F00D0068F7C8 /* Resources */,
 				22A58EAB22B5EE890068F7C8 /* Assets.xcassets */,
 				22A58EB022B5EE890068F7C8 /* LaunchScreen.storyboard */,
@@ -594,8 +612,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A58EA622B5EE870068F7C8 /* AppDelegate.swift in Sources */,
+				22A58EF422B5FA230068F7C8 /* TextFieldView.swift in Sources */,
 				22A58EA822B5EE870068F7C8 /* SceneDelegate.swift in Sources */,
+				22A58EF622B5FA430068F7C8 /* Button.swift in Sources */,
+				22A58EEE22B5F9E00068F7C8 /* DatePickerView.swift in Sources */,
+				22A58EF222B5FA0F0068F7C8 /* SliderView.swift in Sources */,
+				22A58EF022B5F9F90068F7C8 /* PickerView.swift in Sources */,
 				22A58EAA22B5EE870068F7C8 /* ContentView.swift in Sources */,
+				22A58EF822B5FA700068F7C8 /* SwitchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
