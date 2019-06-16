@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>StaticItems.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Views.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
