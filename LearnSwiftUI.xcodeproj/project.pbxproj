@@ -77,6 +77,7 @@
 		22A58EF622B5FA430068F7C8 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A58EF522B5FA430068F7C8 /* Button.swift */; };
 		22A58EF822B5FA700068F7C8 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A58EF722B5FA700068F7C8 /* SwitchView.swift */; };
 		22A58EFA22B5FAD30068F7C8 /* SegmentdControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A58EF922B5FAD30068F7C8 /* SegmentdControlView.swift */; };
+		22A58EFC22B5FCBA0068F7C8 /* TapTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A58EFB22B5FCBA0068F7C8 /* TapTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -158,6 +159,7 @@
 		22A58EF522B5FA430068F7C8 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		22A58EF722B5FA700068F7C8 /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
 		22A58EF922B5FAD30068F7C8 /* SegmentdControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentdControlView.swift; sourceTree = "<group>"; };
+		22A58EFB22B5FCBA0068F7C8 /* TapTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +325,7 @@
 				22A58EF522B5FA430068F7C8 /* Button.swift */,
 				22A58EF722B5FA700068F7C8 /* SwitchView.swift */,
 				22A58EF922B5FAD30068F7C8 /* SegmentdControlView.swift */,
+				22A58EFB22B5FCBA0068F7C8 /* TapTestView.swift */,
 				22A58ED222B5F00D0068F7C8 /* Resources */,
 				22A58EAB22B5EE890068F7C8 /* Assets.xcassets */,
 				22A58EB022B5EE890068F7C8 /* LaunchScreen.storyboard */,
@@ -624,6 +627,7 @@
 				22A58EF022B5F9F90068F7C8 /* PickerView.swift in Sources */,
 				22A58EAA22B5EE870068F7C8 /* ContentView.swift in Sources */,
 				22A58EF822B5FA700068F7C8 /* SwitchView.swift in Sources */,
+				22A58EFC22B5FCBA0068F7C8 /* TapTestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
