@@ -13,9 +13,12 @@ struct ContentView : View {
     var body: some View {
         Image("turtlerock")
             .scaleEffect(scale)
-            .gesture(LongPressGesture(minimumDuration: 2).onEnded({ _ in
-                print("Pressed!")
-            }))
+            .gesture(
+                DragGesture(minimumDistance: 50)
+                    .onEnded { _ in
+                        print("Dragged!")
+                }
+        )
     }
 }
 
