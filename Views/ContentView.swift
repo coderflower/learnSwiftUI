@@ -10,8 +10,28 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        PickerView()
+        DatePickerView()
     }
+}
+
+struct DatePickerView: View {
+    var dataFormatter: DateFormatter {
+        let formater = DateFormatter()
+        formater.dateStyle = .long
+        return formater
+    }
+    @State var birthDate = Date()
+    var body: some View {
+        VStack {
+            DatePicker($birthDate,
+                       maximumDate: Date(),
+                       displayedComponents: .date){
+                        Text("Text")
+            }
+            Text("Date is \(birthDate, formatter: dataFormatter)")
+        }
+    }
+    
 }
 
 struct PickerView: View {
