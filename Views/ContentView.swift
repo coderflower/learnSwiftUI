@@ -10,7 +10,24 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        SliderView()
+        PickerView()
+    }
+}
+
+struct PickerView: View {
+    var colors = ["Red", "Green", "Blue", "Tartan"]
+    @State private var selectedColor = 0
+    var body: some View {
+        VStack {
+            Picker(selection: $selectedColor,
+                   label: Text("Please choose a color")) {
+                ForEach(0 ..< colors.count) {
+                    Text(self.colors[$0])
+                        .tag($0)
+                }
+            }
+            Text("Your selected: \(colors[selectedColor])")
+        }
     }
 }
 
