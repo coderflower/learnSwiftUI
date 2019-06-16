@@ -4,21 +4,32 @@
 //
 //  Created by 蔡龙君 on 2019/6/12.
 //  Copyright © 2019 蔡龙君. All rights reserved.
-//  https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-bar-items-to-a-navigation-view
+//  https://www.hackingwithswift.com/quick-start/swiftui/how-to-group-views-together
+//  默认view最多10个子控件如果添加第11个会报错，此时可以使用Group
 
 import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        NavigationView {
-            Text("This is a gerat app")
-             /// 默认情况下 导航栏都是largeTitle,
-            .navigationBarTitle(Text("Welcome"), displayMode: .inline)
-                .navigationBarItems(trailing: Button(action: {
-                    print("Help tapped!")
-                }, label: {
-                    Text("Help")
-                }))
+        VStack {
+            Group {
+                Text("Line")
+                Text("Line")
+                Text("Line")
+                Text("Line")
+                Text("Line")
+                Text("Line")
+                Text("Line")
+            }
+            Group {
+                Text("Line")
+                Text("Line")
+                Text("Line")
+                Text("Line")
+                Text("Line")
+                Text("Line")
+                Text("Line")
+            }
         }
     }
 }
